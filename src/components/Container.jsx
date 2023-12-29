@@ -59,7 +59,7 @@ const Container = () => {
   };
 
   return (
-    <section className="m-4 md:m-6">
+    <section className="h-[31.4rem] m-4 md:m-6">
       <div className="flex flex-col lg:flex-row gap-4">
         <Canvas textElements={textElements} onTextClick={handleTextClick} />
         <div className="bg-gray-50 border-2 border-gray-200 lg:w-1/4 flex flex-col items-center p-5 justify-between rounded-lg gap-8">
