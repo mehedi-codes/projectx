@@ -59,8 +59,8 @@ const Container = () => {
   };
 
   return (
-    <section className="min-h-[calc(100dvh-178px)] m-4">
-      <div className="flex flex-col lg:flex-row gap-4">
+    <section className="min-h-[calc(100dvh-178px)] m-4 flex flex-col">
+      <div className="flex flex-col lg:flex-row flex-1 gap-4">
         <Canvas textElements={textElements} onTextClick={handleTextClick} />
         <div className="bg-gray-50 border-2 border-gray-200 lg:w-1/4 flex flex-col items-center p-5 justify-between rounded-lg gap-8">
           <FontFamilySelector
